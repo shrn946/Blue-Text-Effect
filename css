@@ -1,13 +1,5 @@
  @import url('https://fonts.googleapis.com/css?family=Raleway|Sacramento');
-body{
-    background: #222;
-    background-image: 
-    repeating-linear-gradient( to bottom,
-    transparent 7px, 
-    #000000cc 9px,
-    #000000cc 13px,
-    transparent 13px );
-}
+
 .text-effect{
     color: #a9f4ff;
     font-family: 'Sacramento', cursive;
