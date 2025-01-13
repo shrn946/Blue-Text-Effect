@@ -1,0 +1,32 @@
+ @import url('https://fonts.googleapis.com/css?family=Raleway|Sacramento');
+body{
+    background: #222;
+    background-image: 
+    repeating-linear-gradient( to bottom,
+    transparent 7px, 
+    #000000cc 9px,
+    #000000cc 13px,
+    transparent 13px );
+}
+.text-effect{
+    color: #a9f4ff;
+    font-family: 'Sacramento', cursive;
+    font-size: 120px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 20px auto 0;
+    animation: animate 2s ease-in-out infinite;
+
+}
+@keyframes animate{
+    20%, 24%, 55%{
+        color: #111;
+        text-shadow: none;
+    }
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100%{
+        color: #a9f4ff;
+      
+    text-shadow: 0 0 5px #000cff, 0 0 15px #0052ff, 0 0 20px #00c8ff, 0 0 40px #008dff, 0 0 60px #000cff, 0 0 10px #00ffb4, 0 0 98px #0000ff;
+    }
+}
